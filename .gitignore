@@ -1,4 +1,5 @@
 node_modules
+app/utils/env.ts
 
 /.cache
 /build
