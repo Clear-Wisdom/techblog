@@ -1,14 +1,14 @@
 import "./tailwind.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
-import Index from "./index";
+import App from "./App";
 
 const container = document.getElementById("root");
 
 if (container) {
-    createRoot(container).render(
-        <React.StrictMode>
-            <Index />
-        </React.StrictMode>
-    );
+	createRoot(container).render(
+		<React.StrictMode>
+			<App />
+		</React.StrictMode>
+	);
 }

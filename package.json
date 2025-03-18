@@ -4,11 +4,14 @@
     "sideEffects": false,
     "type": "module",
     "dependencies": {
+        "@tailwindcss/typography": "^0.5.16",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "react-markdown": "^10.0.0",
+        "react-markdown": "^10.1.0",
+        "react-router-dom": "^7.3.0",
         "rehype-raw": "^7.0.0",
-        "remark-gfm": "^4.0.1"
+        "remark-gfm": "^4.0.1",
+        "remove-markdown": "^0.6.0"
     },
     "scripts": {
         "dev": "vite",
@@ -16,6 +19,7 @@
         "preview": "vite preview"
     },
     "devDependencies": {
+        "@types/node": "^22.13.10",
         "@types/react": "^18.3.18",
         "@types/react-dom": "^18.3.5",
         "@typescript-eslint/eslint-plugin": "^6.7.4",
